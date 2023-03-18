@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        body{
+            background-color: black;
+        }
+        .right ul{
+            color: white;
+            list-style-type: none;
+            text-align: right;
+           
+        }
+        .right ul li{
+            display: inline-block;
+            padding: 15px 20px;
+            font-size:20px;
+            font-family: sans-serif;
+        }
+        a:link{
+            color: green;
+            text-decoration: none;
+            background-color: transparent;
+        }
+        a:visited{
+            color:  rgb(255, 0, 247);
+            text-decoration: none;
+            background-color: transparent;
+        }
+        a:hover{
+            color: red;
+            text-decoration: none;
+            background-color: transparent;
+        }
+        a:active{
+            color: yellow;
+            text-decoration: none;
+            background-color: transparent;
+        }
+        .left{
+            margin-left: 5px;
+            margin-top: 5px;
+            font-size: 50px;
+            font-family: Times New Roman ;
+            color: blanchedalmond;
+        }
+        #highlight{
+            color: whitesmoke;
+        }
+        .about{
+            color: whitesmoke;
+            text-align: center;
+            word-spacing: 3px;
+            font-family: sans-serif;
+            text-transform: capitalize;
+            font-size: 20px;
+        }
+        #green{
+            color: red;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .below{
+            color:rgb(255, 255, 255);
+            font-size: 100px;
+            font-weight: bold;
+            text-transform: capitalize;
+            word-spacing: 5px;
+            position: absolute;
+            bottom: 2%;
+            margin-left: 20%;
+            padding-top: 40px;
+            padding-bottom: 30px;
+        }
+        #part{
+            color: greenyellow;
+        }
+        
+        .pic{
+            width: 150px;
+            height: 200px;
+            border-radius: 50%;
+            margin-left: 45%;
+        }
+        .topic{
+            padding-top: 15%;
+        }
+        .topic ul p{
+            font-size: 30px;
+            font-family: sans-serif ;
+            font-weight: bold;
+            color: violet ;
+            text-align: center;
+        }
+        .topic ul li{
+            font-family: sans-serif ;
+            color:wheat ;
+            padding: 5px;
+            padding-left: 30px;
+            font-size: 20px;
+            list-style-type: none;
+            text-align: center;
+        }
+        #score{
+            color: greenyellow;
+            font-size: 18px;
+        }
+        .details li{
+            padding-bottom: 10px;
+            font-size: 20px;
+            font-family: sans-serif;
+           
+        }
+        .details ul{
+            list-style-type: none;
+            text-align: center;
+            color: aquamarine;
+        }
+        .details p{
+            font-size: 30px;
+            color: red;
+            margin-top: 50px;
+        }
+        #last{
+            color: white;
+            text-align: center;
+            padding-top: 7%;
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+        .icons{
+            color: white;
+            margin-left: 45%;
+            padding-top: 0;
+            size: 10%;
+
+        }
+        .icons li{
+            display:inline-block;
+            list-style-type: none;
+            padding-left: 3px;
+           
+        }
+        .icons a:link{
+            color: aliceblue;
+            background-color: transparent;
+            
+        }
+        .copy-right p {
+            color: #efe0e0;
+            margin-left: 48%;
+            margin-top: 5%;
+        }
+
+        </style>
+        
+</head>
+<body>
+  <main>
+    <div class="right">
+        <ul>
+            <li><a href="" target="_self">Home</a></li>
+            <li><a href="" target="_self">Resume</a></li>
+            <li><a href="" target="_self">Contact</a></li>
+            <li><a href="" target="_self">Hobbies</a></li>
+        </ul>
+    </div>
+    <div class="left">
+        <h4>Manohar<b id="highlight"> Mogga</b></h4>
+    </div>
+        <p class="about">Hello i'am <span id="green">Manohar</span>,Data Analyst and<br>Front-end Webdeveloper based in bhimmavaram.</p>
+        <br><br>
+        <div class="below">
+           <p >i code cool <span id="part">websites</span></p>
+        </div>
+        <img src="img.jpg" alt="profile" class="pic">
+  </main>
+ 
+  <div class="topic">
+    <ul><p>Skills</p><hr width="50%">
+        <li>Python</li>
+        <li>C language</li>
+        <li>Java</li>
+        <li>Mysql</li>
+        <li>Artificial intelligence</li>
+        <li>Data Science</li>
+    </ul>
+    <ul><p>Education Qualification</p><hr width="50%">  
+        <li>2021-25<br>B-tech at Vishnu Institute of Technology, Bhimmavaram.</li>
+        <li>2019-21<br>Intermediate at KSN junior college <span id="score">With 9.5 GPA</span>, Samarlakota.</li>
+        <li>2018-19<br>SSC at SKRSRP Government HighSchool<span id="score">With 9.8 GPA</span>, Kirlampudi.</li>
+        <li>JEE mains <span id="score">81 percentile.</span></li>
+    </ul>
+    <ul><p>Projects</p><hr width="50%">
+        <li>DBMS Mini project</li>
+        <li>Spotify clone</li>
+        <li>A Project on DataScience</li>
+
+    </ul>
+    <div class="details">
+        <ul><P>Contact us on:</P><hr width="50%">
+            <li>Email: <a href="https://mail.google.com/mail/u/0/#inbox">21pa1a6140@vishnu.edu.in</a></li>
+            <li>Mobile: <a href="#"> 93******10</a></li>
+            <li>Insta: <a href="#"> __manu__07</a></li>
+            <li>facebook: <a href="#">_Manohar_</a></li>
+           
+        </ul>
+       </div>
+</div>
+<footer>
+    <div class="copy-right">
+        <p>&copy; @Manu78</p>
+    </diV>
+    
+    <div class="icons">
+        <ul>
+            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="ttps://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
